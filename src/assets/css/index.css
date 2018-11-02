@@ -1,0 +1,71 @@
+body,
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+.mm{
+    background:green
+}
+/*颜色*/
+.cl-main{
+    color:  #5E75E6 !important;
+}
+/*字体大小*/
+.font-size-40{
+    font-size: 40px
+}
+/*padding*/
+.pa-t-50{
+    padding-top:50px 
+}
+/*margin*/
+.mg-t-46{
+    margin-top:46px 
+}
+.mg-l-30{
+    margin-left:30px 
+}
+.pd-rg-10{
+    padding-right: 10px
+
+}
+.v-dialog{
+    padding: 0px !important
+}
+.el-dialog__body{
+    padding: 10px
+
+}
+.el-dialog{
+    width: 98%;
+    height: 80%;
+}
+element.style{
+    margin-top: 2vh !important; 
+}
+/*平行四边形*/
+.city {
+    display: inline-block;
+    padding: 5px 20px;
+    border: 0px solid #44a5fc;
+    color: #333;
+    transform: skew(-30deg,0deg);
+  -ms-transform: skew(-30deg,0deg);/* IE 9 */
+  -webkit-transform: skew(-30deg,0deg);/* Safari and Chrome */
+  -o-transform: skew(-30deg,0deg);/* Opera */
+  -moz-transform: skew(-30deg,0deg);/* Firefox */
+  }
+  .city span{
+       display: inline-block;
+    transform: skew(30deg,0deg);
+  -ms-transform: skew(30deg,0deg);/* IE 9 */
+  -webkit-transform: skew(30deg,0deg);/* Safari and Chrome */
+  -o-transform: skew(30deg,0deg);/* Opera */
+  -moz-transform: skew(30deg,0deg);/* Firefox */
+  }
+  .hide{
+      overflow: hidden !important
+  }
